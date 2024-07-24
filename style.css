@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: yellowgreen;
+}
+/* Set background color for the body */
+body {
+    background-color: black;
+    font-family: 'DM mono';
+    height: 100vh;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#main-content {
+    width: 30%;
+    margin: 10%;
+    padding: 10px;
+    color: whitesmoke;
+    margin-right: 20px; 
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2, h3 {
+    font-size: 16px;
+    font-family: 'manrope';
+    line-height: normal;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+/* Style the container for the pie chart */
+#pie-chart-container {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the SVG element for the pie chart */
+.pie-chart {
+    display: block;
+    margin-left: 100px; /* Adjust margin as needed */
+}
+
+/* Style the legend for the pie chart */
+.legend {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.legend li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.legend li span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
